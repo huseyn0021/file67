@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #08070f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 25%;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+form {
+    position: relative;
+    background: rgba(228, 228, 228, 0.120);
+    border: 0.5px solid rgba(255, 255, 255, 0.200);
+    padding: 20px;
+    height: 480px;
+    width: 370px;
+    z-index: 2;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(48, 48, 48, 0.801);
+}
+
+form>h1 {
+    margin: 40px 0;
+    color: white;
+}
+
+.inpDiv {
+    margin: 15px;
+}
+
+.inpDiv input {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 95%;
+    height: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.100);
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.inpDiv>.l1 {
+    position: absolute;
+    color: white;
+    margin-top: -110px;
+    margin-left: -170px;
+}
+
+.inpDiv>.l2 {
+    position: absolute;
+    color: white;
+    margin-top: -110px;
+    margin-left: -170px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.700);
+    font-size: 16px;
+}
+
+#btnDiv {
+    margin: 25px 0;
+}
+
+#btnDiv button {
+    margin-top: -5px;
+    width: 92%;
+    height: 55px;
+    padding: 10px;
+    background: white;
+    font-weight: 700;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+#btnDiv2 button {
+    margin-right: 11px;
+    margin-left: 10px;
+    width: 42%;
+    height: 43px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.400);
+    font-weight: 700;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.icon1{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 35px;
+}
+
+.icon2{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 205px;
+}
+
+.block {
+    position: absolute;
+    border-radius: 8px;
+    background: rgba(239, 222, 222, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.block1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    left: -90px;
+    top: -90px;
+    z-index: 1;
+    background: rgb(39, 81, 167);
+    background: radial-gradient(circle, rgba(39, 81, 167, 1) 0%, rgba(42, 156, 244, 1) 100%);
+}
+
+.block2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    right: -80px;
+    bottom: -75px;
+    z-index: 1;
+    background: rgb(226, 154, 33);
+    background: linear-gradient(288deg, rgba(226, 154, 33, 1) 0%, rgba(255, 78, 66, 1) 99%);
+}
